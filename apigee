@@ -1,0 +1,62 @@
+1. fonegap - web application to convert mobile app for any platform 
+2. 127 js server for hosting
+3. BaaS without using queries BaaS (Backend as a Service) / usergrid also used
+by API calls
+4. NodeJs - server side javascript, php , python
+5. request and response 
+var http = require('http');
+
+http.createServer(function (req, res) {                 // request and response to server
+  res.writeHead(200, {'Content-Type': 'text/plain'});   // 200 http status code 
+  res.end('Hello World\n'); 				//
+}).listen(1337, '127.0.0.1');
+console.log('Server running at http://127.0.0.1:1337/');
+
+6 .json - javascript object notation
+
+7. callback functionality of nodejs 
+eg -
+ database.query('select * from hugetable', function(result)) {    // function is the callback.. once select is done callback the function
+	console.log('hello');	
+}; 
+
+8. use module async for asynchronisation of tasks 
+require ('async');
+
+9. apigee 127 for creating API's 
+
+10. API's are data carriers 
+
+11. crud - create read update delete operations
+
+12. volos - caching , authorisation , quota facilities
+
+13. swagger 2.0 - API documentation tool, hostname,  etc
+based on YAML (yet another markup language) file 
+
+14. apigee 127 - develop API in nodejs with a model-first approach based on Swagger 2.0
+
+15. install apigee 127
+
+16. sudo npm install -g apigee-127
+
+17. symlink sudo ln -s /usr/bin/nodejs /usr/bin/node
+
+18. create project
+by a127 project create <project_name>
+
+a127 project edit in proj folder
+
+19. a127 project start 
+
+20 controller one function 
+
+21. add new path
+ 22. change controller
+23. change id
+
+24 . quota - traffic management by swagger
+
+25 . spike arrest - to increase traffic
+
+api poxies
